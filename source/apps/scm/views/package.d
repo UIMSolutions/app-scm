@@ -1,6 +1,6 @@
-module apps.myname.views;
+module apps.scm.views;
 
 public { // Packages
-  import apps.myname.views.actions;
-  import apps.myname.views.forms;
+  import apps.scm.views.actions;
+  import apps.scm.views.forms;
 }
