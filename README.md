@@ -1,1 +1,1 @@
-# appTemplate
+# Library 📚 app-scm
