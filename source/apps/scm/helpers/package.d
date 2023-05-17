@@ -1,1 +1,1 @@
-module dbs.scm.helpers;
+module apps.myname.helpers;

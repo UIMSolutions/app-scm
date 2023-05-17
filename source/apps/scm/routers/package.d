@@ -1,1 +1,1 @@
-module apps scm.routers;
+module apps.myname.routers;

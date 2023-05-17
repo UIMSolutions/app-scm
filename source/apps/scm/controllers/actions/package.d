@@ -1,1 +1,1 @@
-module apps.scm.controllers.actions;
+module apps.myname.controllers.actions;

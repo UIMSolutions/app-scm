@@ -1,1 +1,1 @@
-module apps.scm.controllers.components;
+module apps.myname.controllers.components;

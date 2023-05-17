@@ -1,2 +1,1 @@
-# Package 📦 apps.scm.controllers.components
-
+# Package 📦 apps.myname.controllers.components

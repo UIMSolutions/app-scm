@@ -1,2 +1,1 @@
-# Package 📦 apps.scm.controllers.pages
-
+# Package 📦 apps.myname.controllers.pages

@@ -20,6 +20,7 @@ public import langs.javascript;
 public {
   import apps.scm.controllers;
   import apps.scm.helpers;
+  import apps.scm.routers;
   import apps.scm.tests;
   import apps.scm.views;
 }

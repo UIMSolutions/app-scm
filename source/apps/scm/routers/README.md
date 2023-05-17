@@ -1,1 +1,1 @@
-# Package 📦 apps.scm.routers
+# Package 📦 apps.myname.routers
