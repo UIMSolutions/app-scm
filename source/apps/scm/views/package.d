@@ -1,10 +1,10 @@
-module apps.myname.views;
+module apps.scm.views;
 
 public {
-  import apps.myname.views.components;
-  import apps.myname.views.forms;
-  import apps.myname.views.pages;
+  import apps.scm.views.components;
+  import apps.scm.views.forms;
+  import apps.scm.views.pages;
 }
 
-public import apps.myname.views.error;
-public import apps.myname.views.index;
+public import apps.scm.views.error;
+public import apps.scm.views.index;

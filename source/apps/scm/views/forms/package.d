@@ -1,7 +1,7 @@
-module apps.myname.views.forms;
+module apps.scm.views.forms;
 
 public {
-  import apps.myname.views.forms.headers;
-  import apps.myname.views.forms.bodies;
-  import apps.myname.views.forms.footers;
+  import apps.scm.views.forms.headers;
+  import apps.scm.views.forms.bodies;
+  import apps.scm.views.forms.footers;
 }
