@@ -1,2 +1,1 @@
-# Package 📦 apps.scm.views
-
+# Package 📦 apps.myname.views

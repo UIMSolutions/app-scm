@@ -1,1 +1,1 @@
-# Package 📦 apps.scm.tests
+# Package 📦 apps.myname.tests

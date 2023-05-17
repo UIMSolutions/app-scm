@@ -1,1 +1,1 @@
-module apps.scm.views.components;
+module apps.myname.views.components;

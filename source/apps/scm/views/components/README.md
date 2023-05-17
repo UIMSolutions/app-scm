@@ -1,2 +1,2 @@
-# Package 📦 apps.scm.views.components
+# Package 📦 apps.myname.views.components
 

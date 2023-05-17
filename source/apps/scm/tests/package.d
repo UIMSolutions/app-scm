@@ -1,1 +1,1 @@
-module apps.scm.tests;
+module apps.myname.tests;
