@@ -30,11 +30,11 @@ public {
   import apps.scm.views;
 }
 
-DApp scmApp;
 static this() {
-  scmApp = App
+  AppRegistry.register("apps.scm",  
+    App
     .name("scmApp")
     .rootPath("/apps/scm")
     .addRoute(Route("", HTTPMethod.GET, SCMIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, SCMIndexPageController));
+    .addRoute(Route("/", HTTPMethod.GET, SCMIndexPageController)));
 }
