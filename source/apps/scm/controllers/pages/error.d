@@ -8,7 +8,7 @@ module apps.scm.controllers.pages.error;
 import apps.scm;
 @safe:
 
-class DSCMErrorPageController : DAPPPageController {
+class DSCMErrorPageController : DPageController {
   mixin(ControllerThis!("SCMErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {

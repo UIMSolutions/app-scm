@@ -3,7 +3,7 @@ module apps.scm.controllers.pages.index;
 import apps.scm;
 @safe:
 
-class DSCMIndexPageController : DAPPPageController {
+class DSCMIndexPageController : DPageController {
   mixin(ControllerThis!("SCMIndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
