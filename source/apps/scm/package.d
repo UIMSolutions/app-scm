@@ -35,6 +35,7 @@ static this() {
     App
     .name("scmApp")
     .rootPath("/apps/scm")
+                       .importTranslations()
     .addRoute(Route("", HTTPMethod.GET, SCMIndexPageController))
     .addRoute(Route("/", HTTPMethod.GET, SCMIndexPageController)));
 }
