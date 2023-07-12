@@ -32,10 +32,11 @@ public {
 
 static this() {
   AppRegistry.register("apps.scm",  
-    App
-    .name("scmApp")
-    .rootPath("/apps/scm")
-                       .importTranslations()
-    .addRoute(Route("", HTTPMethod.GET, SCMIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, SCMIndexPageController)));
+    App("scmApp", "/apps/scm")
+      .importTranslations()
+      .addRoutes(
+        Route("", HTTPMethod.GET, IndexPageController),
+        Route("/", HTTPMethod.GET, IndexPageController)
+      )
+    );
 }
