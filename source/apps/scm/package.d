@@ -7,8 +7,10 @@ module apps.scm;
 
 mixin(ImportPhobos!());
 
-// Dub
-public import vibe.d;
+// External
+public {
+  import vibe.d;
+}
 
 // UIM
 public import uim.core;
@@ -31,12 +33,21 @@ public {
 }
 
 static this() {
-  AppRegistry.register("apps.scm",  
-    App("scmApp", "/apps/scm")
-      .importTranslations()
-      .addRoutes(
-        Route("", HTTPMethod.GET, IndexPageController),
-        Route("/", HTTPMethod.GET, IndexPageController)
-      )
+  // CReate app
+  auto myApp = App("scmApp", "apps/scm");
+
+  // Customize app
+  with (myApp) {
+    importTranslations;
+    addControllers([
+      "scm.index": IndexPageController
+    ]);
+    addRoutes(
+      Route("", HTTPMethod.GET, controller("scm.index")),
+      Route("/", HTTPMethod.GET, controller("scm.index"))
     );
+  }
+
+  // Register app
+  AppRegistry.register("apps.scm", myApp);
 }
